@@ -211,9 +211,21 @@ NOTE : in case of error check the section above for fix.
 
 ---
 ## <ins>**Building the Android Application**</ins>
+## Steps to build and run
+well we need to open Android Studio and Open the project folder. Create your ADV or connect your android phone or Generate a Signed apk. The usual way that we do with any other application.
+## Android ADV
+if you are going to set up an ADV follow the following specs.
+The generated application dosent run on marshmellow anymore.
+```
+version: android 24+
+name: oreo 
+minimum memory: 2 GB
+```
+All the required changes for the Gradle files have been already made to the project. We are not expecting any problems when building our application.
 
-## Virtualbox Setup
-the following commands are to be run in a linux
+But still for situations where you need to turn the original project into workable build follow the guide [here](./docs/docs/gomobile-ipfs-fix.pdf).
+
+
 
 ---
 ---
@@ -246,5 +258,8 @@ will be updated soon
   ```
   CPU: Intel i3 9th gen
   ```
-
+### Repo content notes
+```diff
+- the current build desnot contain any shared-lib's, apk's , dmg's , dll's, or exe's. 
+```
 
