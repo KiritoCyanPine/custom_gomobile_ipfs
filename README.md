@@ -27,7 +27,7 @@ PS: this method of creation is specifically based on the experience and how we i
 # Android Build Setup
 ## <ins>**Generating Required library file for Android. [.aar]**</ins>
 
-## Virtualbox Setup
+## Linux Setup
 the following commands are to be run in a linux system. this may also be possible to work on using a virtualbox, just remember you need to have atleast 20gb of free space to get your work done.
 
 This was peviously done in Ubuntu LTS, so the guide is tuned according to that.
