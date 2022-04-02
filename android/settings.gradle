@@ -1,0 +1,16 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+//        jcenter( { url "https://jcenter.bintray.com/" } ) // Warning: this repository is going to shut down soon
+//        maven { url "https://jitpack.io" }
+        // If not available locally, download it from Bintray repo
+    }
+}
+include ':app', ':bridge'
+rootProject.name='GomobileIPFSExample'
