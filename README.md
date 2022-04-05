@@ -129,7 +129,7 @@ For this, we need the above repo and the customized repo of go-ipfs .
 
 Now move the go-ipfs folder { ‘github.com/ipfs/go-ipfs’ this one} into the gomobile-ipfs { ‘github.com/ipfs-shipyard/gomobile-ipfs’ this one }
 
-## Directory Hierarchy
+### Directory Hierarchy
 ```
 .
 ├── android
